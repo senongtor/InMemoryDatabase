@@ -11,7 +11,7 @@ public class InMemoryDB {
     private Map<String,Integer> database;
     private Map<Integer,Integer> valueFrequencyCount;
     
-    public Solution(){
+    public InMemoryDB(){
         stack=new Stack<Transaction>();
         database=new HashMap<String,Integer>();
         valueFrequencyCount=new HashMap<Integer,Integer>();
