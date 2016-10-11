@@ -220,7 +220,6 @@ public class InMemoryDB {
         }
     }
     public static void main(String args[] ) throws Exception {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
         InMemoryDB myDB=new InMemoryDB();
         Scanner in = new Scanner(System.in);
         while(in.hasNextLine()){
